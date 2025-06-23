@@ -687,20 +687,3 @@ typedef struct IUnknown *LPUNKNOWN;
 
 
 
-
-// WARNING: Globals starting with '_' overlap smaller symbols at the same address
-// Library Function - Single Match
-//  __fpmath
-// 
-// Library: Visual Studio 1998 Release
-
-void __cdecl __fpmath(int param_1)
-
-{
-  FUN_1001c3b0();
-  _DAT_10034bb4 = FUN_1001eaa0();
-  __setdefaultprecision();
-  return;
-}
-
-
